@@ -1,0 +1,48 @@
+/* Paleta y estilo general */
+body {
+  background: #0d1117;
+  color: #f8f9fa;
+}
+
+/* Gradiente para navbar */
+.bg-gradient-primary {
+  background: linear-gradient(90deg, #1db954 0%, #1ed760 100%);
+}
+
+/* Tarjetas de música */
+.card-music {
+  background: #161b22;
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+.card-music:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.6);
+}
+.card-music img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.card-music .card-body {
+  padding: 1rem;
+}
+
+/* Botones */
+.btn-primary {
+  background-color: #1db954;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #1ed760;
+}
+
+/* Mensajes flotantes */
+#statusMessage {
+  max-width: 320px;
+  border-radius: 0.75rem;
+  z-index: 1055;
+}
