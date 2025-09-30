@@ -1,6 +1,6 @@
 // Configuración de la API de Spotify
-const CLIENT_ID = 'TU_CLIENT_ID_AQUI'; // Obtener en https://developer.spotify.com/dashboard
-const CLIENT_SECRET = 'TU_CLIENT_SECRET_AQUI';
+const CLIENT_ID = 'bf2ca00b39544c0d94a6809dcaeacdea'; 
+const CLIENT_SECRET = '90f07dbdb1cb4e08a021280929a836c8';
 const API_URL = 'https://api.spotify.com/v1';
 
 let accessToken = '';
